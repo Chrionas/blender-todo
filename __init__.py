@@ -20,7 +20,7 @@ bl_info = {
 	"name": "Addon Updater Demo",
 	"description": "Demo addon for showcasing the blender-addon-updater module",
 	"author": "Patrick W. Crawford, neomonkeus",
-	"version": (1, 0, 1),
+	"version": (1, 0, 2),
 	"blender": (2, 93, 0),
 	"location": "View 3D > Tool Shelf > Demo Updater",
 	"warning": "",
@@ -60,7 +60,7 @@ class DemoUpdaterPanel(bpy.types.Panel):
 
 		col = layout.column()
 		col.scale_y = 0.7
-		col.label(text="这是版本001")
+		col.label(text="这是版本00222222222222222")
 		col.label(text="popup triggered by opening")
 		col.label(text="this panel, plus a box ui")
 
